@@ -1,0 +1,85 @@
+
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --purple: #6f2cff;
+    --light-purple:#efe9f9;
+    --red-heart:#a50954;
+    --blue-heart:#acd9b2;
+--sm:14px;
+--md:20;
+--lg:60px;
+}
+
+.main{
+
+    display: flex;
+  justify-content: center;
+  
+    position: relative;
+    margin-bottom: 50px;
+    width: 100%;
+   
+}
+
+.title{
+    text-align: center;font-family: 'Roboto', sans-serif;
+}
+.subtitle{
+
+    text-align: center;font-family: 'Roboto', sans-serif;
+}
+.more-info{
+    
+    background-color: var(--light-purple);
+    display: flex;
+    justify-content: center;
+    
+    align-items: flex-start;
+    width: 100%;
+   
+    
+}
+
+.brochure{ 
+    
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    width:100%;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--white);
+}
+.car-icon{
+    width: 80px;
+    height: 80px;
+    margin-right: 28px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28px;
+    
+}
+.primary-button{
+    border-radius: 5px;
+    background-color: var(--purple);
+    width: 300px;
+    height: 50px;
+}
+.car-icon figure svg{
+    width: 50px;
+    height: 50px;
+}
+.car-container{
+    display: flex;
+    align-items: center;
+    margin: 16px 0 16px 0;
+}
+.icon-title{
+    font-family: 'Roboto', sans-serif;
+}
+.icon-text{
+    font-family: 'Roboto', sans-serif;
+}

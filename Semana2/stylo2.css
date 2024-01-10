@@ -1,0 +1,64 @@
+body{
+    background: #2B2E34;
+}
+.primero{
+    display: grid;
+  justify-content: center;
+    position: relative;
+    
+    width: 100%;
+    margin-bottom: 100px;
+}
+.title{
+    color:azure;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitle{
+    color: #AFC0E2;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.brochure{ 
+    text-align: center;
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    width:100%;
+    justify-items: center;
+    align-items: center;
+    
+}
+.segundo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    gap: 30px;
+align-self: stretch;
+width:100%;
+margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    width: 300px;
+height: 160px;
+flex-shrink: 0;
+border-radius: 15px;
+
+background: #0D1423;
+justify-content: center;
+align-items: center;
+}
+.parrafo{
+    color: #AFC0E2;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.tercero{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    gap: 30px;
+align-self: stretch;
+width:100%;
+}
