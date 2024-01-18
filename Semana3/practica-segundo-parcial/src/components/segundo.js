@@ -40,8 +40,7 @@ return(
             <p> Usuario:   {usuario}</p>
             <p>Nombres:   {nombres}</p>
             <p>Edad:   {edad}</p>
-            
-        </div>
+         </div>
         </>
       )}
 

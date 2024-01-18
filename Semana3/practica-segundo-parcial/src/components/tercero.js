@@ -6,7 +6,7 @@ export const Tercero=()=>{
 
   const startTime = () => {
     window.myTime = setInterval(() => {
-      setTime((time) => time + 1);
+        setTime((time) => time + 1);
     }, 1000);
   };
   const stopTime = () => {
